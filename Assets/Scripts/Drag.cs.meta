@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cf5784df7fa87564995ce320541dbcfc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hand_sprite: {fileID: 21300000, guid: c6d24730a6dad0f489762ffa66793f0e, type: 3}
+  - point_texture: {fileID: 2800000, guid: e449086c0c045cb45a905f9eefcd2797, type: 3}
+  - hand_texture: {fileID: 2800000, guid: 28b69862d53f4ed4f86863b085388819, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

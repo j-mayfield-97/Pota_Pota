@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 62443eb811a1952428c13c8d60cee8bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - geometry_skin: {fileID: 9079882104934524085, guid: 4e99ea7e7c5fea34bbda6bcdd631b96d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

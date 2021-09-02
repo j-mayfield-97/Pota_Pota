@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7868150538674655329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7868150538674655331}
+  - component: {fileID: 7868150538674655332}
+  m_Layer: 0
+  m_Name: Controller_Help
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7868150538674655331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7868150538674655329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7868150538674655332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7868150538674655329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f119c25e6548341bea09b2639abab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected_marker_fab: {fileID: 3391863636349489310, guid: 133fac6bf1e9652448077071053bbf74, type: 3}
+  held_marker_fab: {fileID: 8505946021453206005, guid: 949e84d61b159a74182d8c0b8456ea3c, type: 3}
+  hand_sprite: {fileID: 21300000, guid: c6d24730a6dad0f489762ffa66793f0e, type: 3}
+  point_texture: {fileID: 2800000, guid: e449086c0c045cb45a905f9eefcd2797, type: 3}
+  hand_texture: {fileID: 2800000, guid: 28b69862d53f4ed4f86863b085388819, type: 3}
+  stick_constant: 35000

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7148816405844108633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7148816405844108647}
+  - component: {fileID: 7148816405844108646}
+  - component: {fileID: 7148816405844108644}
+  - component: {fileID: 6272683642311109770}
+  m_Layer: 0
+  m_Name: State
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7148816405844108647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7148816405844108633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7148816405844108646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7148816405844108633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3edb91a59e89848ab20309ba743922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  current_level: 0
+  pots_in_level: 0
+  cans_in_level: 0
+  pipes_in_level: 0
+  drops_in_can: 0
+  drops_in_level: 0
+  drops_in_pot: 0
+  current_filter: 
+  all_filled: 0
+  all_pot_drops: 
+  time_level: 0
+  game_pasused: 0
+  pots: []
+  c_d_text: {fileID: 0}
+  percent_tmp: {fileID: 0}
+  win_particle_parent: {fileID: 660742092795818505, guid: 2c9a0c8db295c844aa6fec95d64b9ee9, type: 3}
+  loss_particle_parent: {fileID: 3358894304706900901, guid: 6971ef2dd4bdbdc4cab0fd6304aa8d83, type: 3}
+  goal: WATER PLANT
+  goal_order: 0
+--- !u!114 &7148816405844108644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7148816405844108633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d005f6021e8f649a3a26a8c2c1777e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p_menu: {fileID: 0}
+  p_panel: {fileID: 0}
+  s_menu: {fileID: 0}
+  g_menu: {fileID: 0}
+  l_menu: {fileID: 0}
+  p_button1: {fileID: 8999378915118403529, guid: fd2600af252cf334897030cbec02b92b, type: 3}
+  s_button1: {fileID: 8012249625900003905, guid: 2f8477650aaebfa42a26e6b7b7a81c25, type: 3}
+  g_button1: {fileID: 3335796095224622040, guid: a63b3523538a5be41aa0b5d34cd3a23f, type: 3}
+  l_button1: {fileID: 7023933458997227658, guid: 73ab4522fb2c65946b6608c25f612d81, type: 3}
+  fonts:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 9e6bdd52910ca5d4bb4aa3e8f96166f0, type: 2}
+  - {fileID: 11400000, guid: c4999cb76b15865429c10b308b888670, type: 2}
+  - {fileID: 11400000, guid: 469d3f635fd012643a352407f1551214, type: 2}
+  - {fileID: 11400000, guid: d8066072723dd454db3736d8a8bbbb6f, type: 2}
+--- !u!114 &6272683642311109770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7148816405844108633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62443eb811a1952428c13c8d60cee8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  geometry_skin: {fileID: 9079882104934524085, guid: 4e99ea7e7c5fea34bbda6bcdd631b96d, type: 3}
