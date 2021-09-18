@@ -18,8 +18,8 @@ public class AltDrag : MonoBehaviour
     private CursorMode cur_mode = CursorMode.ForceSoftware;
 
     private float graviy_scale;
-    private float inertia_base = 951f;
-    private float mass_base = 36f;
+    //private float inertia_base = 951f;
+    //private float mass_base = 36f;
     public float stick_constant;
 
     private Vector3 prev_mouse_pos;

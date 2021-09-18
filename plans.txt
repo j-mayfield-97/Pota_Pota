@@ -1,0 +1,35 @@
+
+
+---------------------
+
+pick which kind of seed you want, grab a watering can, fill it from a faucet, water a plant for a few seconds(growing animation), the links around the site are on the leaves.
+if they pick flower the petals contain the links, if they pick monstera the leaves have the links, the treee the roots have the links. the letters and plants grow in real time.
+
+------------------------------------------------------------------------------
+break-it-mode with  no disapearing drops and no limits
+
+------------
+!have the plant pot be breakable 
+----------------
+the plant runs away but hitting it with the shelf kills it.
+-------------------------
+^[lant opens eyes on awake
+----------------
+!speed run clcok
+----------
+!multiple color schemes
+-----------
+^shoot multiple drops at once
+
+-------
+if you respect the plants and dont add any water for a minute , you get special reward
+-------
+^more points for higher up pour
+--------------------------
+^zoom camera in  on 
+__________________
+!camera follows mouse on larger levels
+-----------------------------
+!stealth plant
+----------------------
+!a dark level with a lamp you have to move
